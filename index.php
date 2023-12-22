@@ -90,28 +90,33 @@
                 <div class="title">
                     <p>大小問わず、傷・へこみを適正価格でお直しします</p>
                 </div>
-                <p>設備・整備士ともに、厳格な基準をクリアした当社であれば、常にハイクオリティなメンテナンスをお客様へとご提供できます。
-                    初めての方から他社での車検のお見積りにお悩みの方・故障原因がわからない方・次回車検をご検討の方まで、どんな方でもどうぞお気軽にお問い合わせください。 
-                    お客様のニーズに合わせたプランをご提案いたします。</p>
+                <div class="content-message">
+                    <p>設備・整備士ともに、厳格な基準をクリアした当社であれば、常にハイクオリティなメンテナンスをお客様へとご提供できます。
+                        初めての方から他社での車検のお見積りにお悩みの方・故障原因がわからない方・次回車検をご検討の方まで、どんな方でもどうぞお気軽にお問い合わせください。 
+                        お客様のニーズに合わせたプランをご提案いたします。</p>
+                </div>
             </div>
             <div class="content">
                 <img src="./img/wcd2.png" alt="wcd2">
                 <div class="title">
                     <p>大小問わず、傷・へこみを適正価格でお直しします</p>
                 </div>
-                <p>輸入車のボディで数多く採用されているアルミボディ・スチールボディ等の特殊鋼板にも対応しております。
-                    溶接・調色が困難と言われているアルミボディ・スチールボディですが、豊富な知見・技術・実績を積み重ねてまいりました。
-                    他店で施工を断られた、またディーラーでの修理コストにお悩みの方の役にどんどんご相談ください。</p>
-                
+                <div class="content-message">
+                    <p>輸入車のボディで数多く採用されているアルミボディ・スチールボディ等の特殊鋼板にも対応しております。
+                        溶接・調色が困難と言われているアルミボディ・スチールボディですが、豊富な知見・技術・実績を積み重ねてまいりました。<br>
+                        他店で施工を断られた、またディーラーでの修理コストにお悩みの方の役にどんどんご相談ください。</p>
+                    </div>
             </div>
             <div class="content">
                 <img src="./img/wcd3.png" alt="wcd3">
                 <div class="title">
                     <p>モータースポーツで培ってきた技術で壊れにくく速い車を製作しています</p>
                 </div>
-                <p>レース、ラリー、ジムカーナ、ダートトライアル等に出場している車両の製作・メンテナンスを行なっています。
-                   レギュレーションに合わせた車両の制作やお客様にご要望・予算に合わせた車両のチューニングプランを用意しております。
-                   もちろんストリート・ドレスアップにも合わせた製作も行なっておりますので、気軽にご相談ください。</p>
+                <div class="content-message">
+                    <p>レース、ラリー、ジムカーナ、ダートトライアル等に出場している車両の製作・メンテナンスを行なっています。<br>
+                    レギュレーションに合わせた車両の制作やお客様にご要望・予算に合わせた車両のチューニングプランを用意しております。
+                    もちろんストリート・ドレスアップにも合わせた製作も行なっておりますので、気軽にご相談ください。</p>
+                </div>
             </div>
             </div> 
 
@@ -124,23 +129,34 @@
         <div class="wrapper5">
             <h3>お問い合わせの後の流れ</h3>
             <div class="inquiry">
-                <div class="1">
-                    1
+                <div class="inquiry-list">
+                <img src="./img/icon-phone.png" alt="wcd3">
+                    <span>お問い合わせ</span>
                 </div>
-                <div class="2">
-                    2
+                <div class="inquiry-list">
+                <img src="./img/icon-carf.png" alt="wcd3">
+                <span>来店</span>
+                    
                 </div>
-                <div class="3">
-                    3
+                <div class="inquiry-list">
+                <img src="./img/icon-speech.png" alt="wcd3">
+                    <span>修理内容のご相談</span>
+                    
                 </div>
-                <div class="4">
-                    4
+                <div class="inquiry-list">
+                <img src="./img/icon-car.png" alt="wcd3">
+                    <span>入庫</span>
+                    
                 </div>
-                <div class="5">
-                    5
+                <div class="inquiry-list">
+                <img src="./img/icon-tools.png" alt="wcd3">
+                    <span>作業開始</span>
+                    
                 </div>
-                <div class="6">
-                    6
+                <div class="inquiry-list">
+                <img src="./img/icon-handshake.png" alt="wcd3">
+                    <span>お渡し</span>
+                    
                 </div>
             </div>  
 

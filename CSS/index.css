@@ -1,5 +1,8 @@
-html{
-	margin: 0 auto;
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Yu Gothic';
 }
 
 body {
@@ -8,6 +11,7 @@ body {
 	max-width: 1440px;
 	width: 100%;
 }
+
 
 header {
 	position: absolute;
@@ -95,12 +99,58 @@ header .right_content ul{
 }
 .wrapper4 .wrapper4-content{
 	display: flex;
+	justify-content: center;
+	gap: 40px;
+}
+.wrapper4-content .content{
+	background-color: #F0F0F0;
+	width: 360px;
+
+}
+.wrapper4-content img{
+	padding: 40px 30px 0 32px;
 }
 .wrapper4-content .content .title{
 	background-color: #E7DE01;
-	padding: 10px;
+	width: 328px;
+	
+}
+.wrapper4-content .content .title p{
+	padding: 32px;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 160%; /* 32px */
+	letter-spacing: 0.8px;
+}
+.wrapper4-content .content .content-message{
+	padding: 16px 32px 40px 24px;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 160%;
 }
 
 .wrapper5{
 	background-color: #F0F0F0;
+}
+
+.wrapper5 .inquiry{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 48px;
+}
+
+.wrapper5 .inquiry .inquiry-list{
+	width: 712px;
+	padding: 20px 0;
+	background-color: #FFFFFF;
+	color: #363636;
+	font-family: Yu Gothic;
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 160%;
 }
