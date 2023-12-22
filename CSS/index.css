@@ -52,6 +52,15 @@ header .right_content ul{
 	line-height: 140%;
 }
 
+.content-title{
+	color: #363636;
+	text-align: center;
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 160%;
+	text-decoration: underline;
+}
 .wrapper1 .content{
 }
 
@@ -63,6 +72,8 @@ header .right_content ul{
 	width: 1240px;
 	background-color: #FDFDFD;
 }
+
+
 .wrapper3 .wrapper3-content-box{
 	display: flex;
 	position: relative;
@@ -80,7 +91,7 @@ header .right_content ul{
 	padding: 20px;
 	background:linear-gradient(to right, transparent 0%, #FFFFFF 90%); */
 	position: absolute;
-    top: -19px;
+    top: -8px;
     left: 564px;
     color: #363636;
     font-family: Yu Gothic;
@@ -90,8 +101,8 @@ header .right_content ul{
     line-height: 160%;
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-left: 60px;
-    background: linear-gradient(to right, transparent 0%, #FFFFFF 12%);
+    padding-left: 100px;
+    background: linear-gradient(to right, transparent 0%, #FFFFFF 24%);
 }
 
 .wrapper4{

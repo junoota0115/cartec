@@ -48,7 +48,7 @@
 		</div>
         <div class="wrapper3">
             <div class="wrapper3-content">
-            <h3>コンセプト</h3>
+            <div class="content-title">コンセプト</div>
                 <div class="wrapper3-content-box">
                     <div class="wrapper3-img">    
                         <img src="./img/concept.png" alt="concept">
@@ -65,7 +65,7 @@
             </div>
 
             <div class="wrapper3-content">
-            <h3>代表挨拶</h3>
+            <div class="content-title">代表挨拶</div>
             <div class="wrapper3-content-box">
                 <div class="wrapper3-img">    
                 <img src="./img/message.png" alt="message" class="img">
@@ -82,7 +82,7 @@
         </div>
 
         <div class="wrapper4">
-            <h3>私たちができること</h3>
+            <div class="content-title">私たちができること</div>
             <p>お客様が大切にされている愛車を安心安全に乗れるように整備・修理をしています。</p>
             <div class="wrapper4-content">
                 <div class="content">
@@ -127,7 +127,7 @@
         </div>
 
         <div class="wrapper5">
-            <h3>お問い合わせの後の流れ</h3>
+            <div class="content-title">お問い合わせの後の流れ</div>
             <div class="inquiry">
                 <div class="inquiry-list">
                 <img src="./img/icon-phone.png" alt="wcd3">
