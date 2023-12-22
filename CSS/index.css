@@ -67,47 +67,66 @@ header .right_content ul{
 
 .wrapper3{
 	background-color:#F0F0F0;
+	display: flex;
+	padding: 40px 140px;
+	flex-direction: column;
+	align-items: center;
+	gap: 32px;
+
 }
 .wrapper3 .wrapper3-content{
 	width: 1240px;
 	background-color: #FDFDFD;
+
+	padding: 40px;
+
 }
 
 
-.wrapper3 .wrapper3-content-box{
+.wrapper3 .wrapper3-img{
 	display: flex;
 	position: relative;
 }
-.wrapper3-content-box p{
-	/* position: absolute;
-	top: 40px;
-	left: 600px;
-	color: #363636;
-	font-family: Yu Gothic;
-	font-size: 20px;
-	font-style: normal;
-	font-weight: 400;
-	line-height: 160%;
-	padding: 20px;
-	background:linear-gradient(to right, transparent 0%, #FFFFFF 90%); */
+.wrapper3-img p{
 	position: absolute;
-    top: -8px;
     left: 564px;
     color: #363636;
-    font-family: Yu Gothic;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: 160%;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 100px;
+    padding: 16px 24px;
     background: linear-gradient(to right, transparent 0%, #FFFFFF 24%);
+}
+
+.button-applybtn{
+	width: 437px;
+	display: flex;
+	padding: 16px;
+	color: #F0F0F0;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 160%; /* 38.4px */
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	background-color: #C90000;
 }
 
 .wrapper4{
 	background-color: #FFFFFF;
 }
+.wrapper4 .content-subtitle{
+	color: #363636;
+	text-align: center;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 160%;
+}
+
 .wrapper4 .wrapper4-content{
 	display: flex;
 	justify-content: center;

@@ -48,8 +48,7 @@
 		</div>
         <div class="wrapper3">
             <div class="wrapper3-content">
-            <div class="content-title">コンセプト</div>
-                <div class="wrapper3-content-box">
+              <div class="content-title">コンセプト</div>
                     <div class="wrapper3-img">    
                         <img src="./img/concept.png" alt="concept">
                         <p>カーテクの更科はスバル車をメインに一般整備から競技車輌の製作まで行っています。くるまをもっとたくさんの人達に楽しんでいただきたいという方針で経営しております。<br>
@@ -61,29 +60,27 @@
                         新潟では、SUBARUといえば、カーテクの更科と言われております。<br>
                         気軽にご相談ください。</p>
                     </div>
-                </div>
             </div>
 
             <div class="wrapper3-content">
-            <div class="content-title">代表挨拶</div>
-            <div class="wrapper3-content-box">
-                <div class="wrapper3-img">    
-                <img src="./img/message.png" alt="message" class="img">
-                </div>
-                <p>こんにちは。カーテクの更科代表更科昌義です。<br>
-                幼い頃からオヤジの影響で,レース・ラリー・ダートトライアル等経験しており、現在は、土系を中心とした競技ダートトライアルをメインに活動しております。<br>
-                また、ラリーのオフィシャル等にも参加しており、冬季には、氷上雪上での講習会、ジムカーナ＆ダートラ練習会を開催し、ストリート～競技の方と、幅広く、ドライバーの運転技能向上育成に力を入れています。</p>  
+              <div class="content-title">代表挨拶</div>
+
+                  <div class="wrapper3-img">    
+                  <img src="./img/message.png" alt="message" class="img">
+                  <p>こんにちは。カーテクの更科代表更科昌義です。<br>
+                  幼い頃からオヤジの影響で,レース・ラリー・ダートトライアル等経験しており、現在は、土系を中心とした競技ダートトライアルをメインに活動しております。<br>
+                  また、ラリーのオフィシャル等にも参加しており、冬季には、氷上雪上での講習会、ジムカーナ＆ダートラ練習会を開催し、ストリート～競技の方と、幅広く、ドライバーの運転技能向上育成に力を入れています。</p>  
                 </div>
             </div>
 
             <div class="applybtn">
-				<button class="button3 applybtn"><span>従業員紹介</span></button>
+				<div class="button-applybtn"><span>従業員紹介</span></div>
 			</div>
         </div>
 
         <div class="wrapper4">
             <div class="content-title">私たちができること</div>
-            <p>お客様が大切にされている愛車を安心安全に乗れるように整備・修理をしています。</p>
+            <div class="content-subtitle">お客様が大切にされている愛車を安心安全に乗れるように整備・修理をしています。</div>
             <div class="wrapper4-content">
                 <div class="content">
                 <img src="./img/wcd1.png" alt="wcd1">
@@ -121,7 +118,7 @@
             </div> 
 
             <div class="applybtn">
-            <button class="button4 applybtn"><span>競技車両制作ページを見る</span></button>
+            <div class="button-applybtn"><span>競技車両制作ページを見る</span></div>
             </div>
 
         </div>
@@ -161,7 +158,7 @@
             </div>  
 
             <div class="applybtn">
-            <button class="button5 applybtn"><span>お問い合わせ</span></button>
+            <div class="button-applybtn"><span>お問い合わせ</span></div>
             </div>
         </div>
 
