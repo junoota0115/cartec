@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -27,7 +27,7 @@
     <div class="wrapper">
         <div class="wrapper1">
         <div class="content">
-        <img src="./img/top-fv.png"  class="absolute01" alt="top-fv" width="80%">
+        <img src="./img/top-fv.png"  class="absolute01" alt="top-fv" width="100%">
         <img src="./img/main-title.png"  class="absolute02" alt="main-title">
     </div>
             <div class="title-img1">    
@@ -49,18 +49,18 @@
         <div class="wrapper3">
             <div class="wrapper3-content">
             <h3>コンセプト</h3>
-            <div class="wrapper3-content-box">
-                <div class="wrapper3-img">    
-                <img src="./img/concept.png" alt="concept">
-                </div>
-                <p>カーテクの更科はスバル車をメインに一般整備から競技車輌の製作まで行っています。くるまをもっとたくさんの人達に楽しんでいただきたいという方針で経営しております。<br>
-                    スバル車に限らず国産・輸入各自動車メーカーの新車､中古車､車検､一般整備､板金塗装､各種パーツの販売、取り付け、チューニング、競技車両の製作、特殊車両の作製をしています。モータースポーツでの実績、培ったノウハウを活かし､整備等の技術を一般ユーザーに提供しています。<br>
-                    自動車の他にチェンソー､発電機､草刈機...etc <br>
-                    農機具、コンクリートカッターなども販売､修理も承ります。<br>
-                    とにかくエンジンが搭載されているモノならなんでもお任せください！<br>
-                    一味違った知る人ぞ知る町のくるま屋です。<br>
-                    新潟では、SUBARUといえば、カーテクの更科と言われております。<br>
-                    気軽にご相談ください。</p>
+                <div class="wrapper3-content-box">
+                    <div class="wrapper3-img">    
+                        <img src="./img/concept.png" alt="concept">
+                        <p>カーテクの更科はスバル車をメインに一般整備から競技車輌の製作まで行っています。くるまをもっとたくさんの人達に楽しんでいただきたいという方針で経営しております。<br>
+                        スバル車に限らず国産・輸入各自動車メーカーの新車､中古車､車検､一般整備､板金塗装､各種パーツの販売、取り付け、チューニング、競技車両の製作、特殊車両の作製をしています。モータースポーツでの実績、培ったノウハウを活かし､整備等の技術を一般ユーザーに提供しています。<br>
+                        自動車の他にチェンソー､発電機､草刈機...etc <br>
+                        農機具、コンクリートカッターなども販売､修理も承ります。<br>
+                        とにかくエンジンが搭載されているモノならなんでもお任せください！<br>
+                        一味違った知る人ぞ知る町のくるま屋です。<br>
+                        新潟では、SUBARUといえば、カーテクの更科と言われております。<br>
+                        気軽にご相談ください。</p>
+                    </div>
                 </div>
             </div>
 
@@ -68,7 +68,7 @@
             <h3>代表挨拶</h3>
             <div class="wrapper3-content-box">
                 <div class="wrapper3-img">    
-                <img src="./img/message.png" alt="message">
+                <img src="./img/message.png" alt="message" class="img">
                 </div>
                 <p>こんにちは。カーテクの更科代表更科昌義です。<br>
                 幼い頃からオヤジの影響で,レース・ラリー・ダートトライアル等経験しており、現在は、土系を中心とした競技ダートトライアルをメインに活動しております。<br>

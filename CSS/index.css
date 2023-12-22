@@ -1,9 +1,12 @@
 html{
 	margin: 0 auto;
 }
+
 body {
-	font-size: 1vw;
-	background-color: #00000085;
+	position: relative;
+	margin: 0 auto;
+	max-width: 1440px;
+	width: 100%;
 }
 
 header {
@@ -58,12 +61,33 @@ header .right_content ul{
 }
 .wrapper3 .wrapper3-content-box{
 	display: flex;
+	position: relative;
+}
+.wrapper3-content-box p{
+	/* position: absolute;
+	top: 40px;
+	left: 600px;
 	color: #363636;
 	font-family: Yu Gothic;
 	font-size: 20px;
 	font-style: normal;
 	font-weight: 400;
-	line-height: 160%; /* 32px */
+	line-height: 160%;
+	padding: 20px;
+	background:linear-gradient(to right, transparent 0%, #FFFFFF 90%); */
+	position: absolute;
+    top: -19px;
+    left: 564px;
+    color: #363636;
+    font-family: Yu Gothic;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 60px;
+    background: linear-gradient(to right, transparent 0%, #FFFFFF 12%);
 }
 
 .wrapper4{
