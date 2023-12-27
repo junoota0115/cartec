@@ -62,7 +62,80 @@ header .right_content ul{
 	text-decoration: underline;
 }
 .wrapper1 .content{
+	position: relative;
 }
+.wrapper1 .content .absolute02{
+	position: absolute;
+	top:10px;
+}
+
+.wrapper2{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background:#363636;
+	padding: 64px;
+}
+.wrapper2 .info_all .info_title{
+	color:#FFF;
+	text-align: center;
+	font-size: 48px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 140%;
+}
+
+.wrapper2 .info_all .info_lists p{
+	color: #FDFDFD;
+	text-align: center;
+	font-family: Yu Gothic;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 160%; 
+}
+
+
+.applybtn .button-applybtn2 {
+	position: relative;
+	width: 437px; 
+	display: flex;
+	padding: 16px;
+	color: #363636;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 160%;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	background-color: #E7DE01;
+  }
+  
+  .applybtn .button-applybtn2::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 20px 20px 0; /* 右上隅に対する対角線の幅を調整 */
+	border-color: transparent #363636 transparent transparent; /* 右上隅の色を指定 */
+  }
+  .applybtn .button-applybtn2::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 0 20px 20px; /* 左上隅に対する対角線の幅を調整 */
+	border-color: transparent transparent transparent #363636; /* 右上隅の色を指定 */
+  }
+
 
 
 .wrapper3{
@@ -99,24 +172,55 @@ header .right_content ul{
     background: linear-gradient(to right, transparent 0%, #FFFFFF 24%);
 }
 
-.button-applybtn{
-	width: 437px;
+.applybtn .button-applybtn {
+	position: relative;
+	width: 437px; 
 	display: flex;
 	padding: 16px;
 	color: #F0F0F0;
 	font-size: 24px;
 	font-style: normal;
 	font-weight: 700;
-	line-height: 160%; /* 38.4px */
+	line-height: 160%;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	gap: 10px;
 	background-color: #C90000;
-}
+  }
+  
+  .applybtn .button-applybtn::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 20px 20px 0; /* 右上隅に対する対角線の幅を調整 */
+	border-color: transparent #F0F0F0 transparent transparent; /* 右上隅の色を指定 */
+  }
+  .applybtn .button-applybtn::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 0 20px 20px; /* 左上隅に対する対角線の幅を調整 */
+	border-color: transparent transparent transparent #F0F0F0; /* 右上隅の色を指定 */
+  }
+  
 
 .wrapper4{
-	background-color: #FFFFFF;
+	background-color: #FFF;
+	display: flex;
+	/* width: 1440px; */
+	padding: 64px 0px;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 .wrapper4 .content-subtitle{
 	color: #363636;
@@ -131,6 +235,7 @@ header .right_content ul{
 	display: flex;
 	justify-content: center;
 	gap: 40px;
+	padding: 48px;
 }
 .wrapper4-content .content{
 	background-color: #F0F0F0;
@@ -150,7 +255,7 @@ header .right_content ul{
 	font-size: 20px;
 	font-style: normal;
 	font-weight: 700;
-	line-height: 160%; /* 32px */
+	line-height: 160%;
 	letter-spacing: 0.8px;
 }
 .wrapper4-content .content .content-message{
@@ -163,6 +268,10 @@ header .right_content ul{
 
 .wrapper5{
 	background-color: #F0F0F0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 64px;
 }
 
 .wrapper5 .inquiry{
@@ -171,16 +280,212 @@ header .right_content ul{
 	justify-content: center;
 	align-items: center;
 	gap: 48px;
+	padding-bottom: 48px;
+}
+.wrapper5 .inquiry .inquiry-content{
+	display: flex;
 }
 
 .wrapper5 .inquiry .inquiry-list{
+	display: flex;
 	width: 712px;
-	padding: 20px 0;
+	height: 104px;
+	flex-shrink: 0;
+	padding: 20px 64px;
 	background-color: #FFFFFF;
 	color: #363636;
-	font-family: Yu Gothic;
 	font-size: 40px;
 	font-style: normal;
 	font-weight: 700;
 	line-height: 160%;
 }
+
+.list-number-top{
+	background-color: #E7DE01;
+	width: 120px;
+	height: 142px;
+	flex-shrink: 0;
+	color: #363636;
+	text-align: center;
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 160%;
+	position: relative;
+}
+  
+  .inquiry-content .list-number-top::before {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 40px 60px 0 0; /* 右上隅に対する対角線の幅を調整 */
+	border-color: transparent #F0F0F0 transparent transparent; /* 右上隅の色を指定 */
+  }
+
+  .inquiry-content .list-number-top::after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 40px 0 0 60px;
+	border-color: transparent transparent transparent #F0F0F0;
+  }
+
+  .list-number{
+	background-color: #E7DE01;
+	width: 120px;
+	height: 142px;
+	flex-shrink: 0;
+	color: #363636;
+	text-align: center;
+	font-family: Yu Gothic;
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 160%;
+	position: relative;
+}
+  
+  .inquiry-content .list-number::before {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 40px 60px 0 0; /* 右上隅に対する対角線の幅を調整 */
+	border-color: transparent #F0F0F0 transparent transparent; /* 右上隅の色を指定 */
+  }
+
+  .inquiry-content .list-number::after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 40px 0 0 60px; /* 左上隅に対する対角線の幅を調整 */
+	border-color: transparent transparent transparent #F0F0F0; /* 右上隅の色を指定 */
+  }
+
+  /* .inquiry-content .list-number::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 50px 60px 0 0;
+	border-color: #F0F0F0 transparent transparent transparent; 
+  }
+
+  .inquiry-content .list-number::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 50px 0 0 60px;
+	border-color: #F0F0F0 transparent transparent transparent ;
+  } */
+
+  .list-number-bottom{
+	background-color: #E7DE01;
+	width: 120px;
+	height: 104.253px;
+	flex-shrink: 0;
+	flex-shrink: 0;
+	color: #363636;
+	text-align: center;
+	font-family: Yu Gothic;
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 160%;
+	position: relative;
+}
+  
+  .inquiry-content .list-number-bottom::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 50px 60px 0 0;
+	border-color: #F0F0F0 transparent transparent transparent; 
+  }
+
+  .inquiry-content .list-number-bottom::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 50px 0 0 60px;
+	border-color: #F0F0F0 transparent transparent transparent ;
+  }
+
+  .wrapper5 .inquiry .inquiry-list img{
+	padding-left: 64px;
+  }
+
+  .wrapper6{
+	display: flex;
+	width: 1440px;
+	padding: 64px 0px;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: #363636;
+  }
+
+  .content-title1{
+	color: #E7DE01;
+	text-align: center;
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 160%;
+	text-decoration: underline;
+}
+
+ .company_profile{
+	padding: 64px 124px;
+	display: flex;
+ }
+
+  .company_profile_list{
+	display: flex;
+	align-items: center;
+	gap: 40px;
+	color: #FFF;
+	font-family: Yu Gothic;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 140%; /* 33.6px */
+	padding-bottom: 40px;
+  }
+
+  iframe{
+	width: 480px;
+	height: 712px;
+	flex-shrink: 0;
+	padding-left: 64px;
+  }
