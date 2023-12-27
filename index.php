@@ -1,3 +1,5 @@
+<?php require_once("./common/common.php");
+?>
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -5,23 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/company.css">
+    <link rel="stylesheet" href="./css/header.css">
     <title>会社説明</title>
 </head>
 <body>
-    <header>
-        <!-- <div class="left_content"><img src="./img/icon.png" alt="icon"></div> -->
-        <div class="right_content">
-            <ul>
-                <li><img src="./img/icon.png" alt="icon"></li>
-                <li>整備について</li>
-                <li>会社概要</li>
-                <li>競技車両政策</li>
-                <li>オンラインショップ</li>
-                <li>お問い合わせ</li>
-            </ul>
-        </div>
-        
-    </header>
+    <?php require_once("__header.php");
+    ?>
 
 
     <div class="wrapper">
@@ -180,7 +172,9 @@
             <div class="button-applybtn"><span>お問い合わせ</span></div>
             </div>
         </div>
-
+<?php
+require_once("__company.php");
+?>
         <div class="wrapper6">
             <div class="content-title1">会社概要</div>
             <div class="company_profile">
