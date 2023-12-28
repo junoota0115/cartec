@@ -1,18 +1,18 @@
-<?php require_once("./common/common.php");
+<?php require_once("../common/common.php");
 ?>
 <!DOCTYPE html>
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./index.css">
     <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/company.css">
-    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="../css/company.css">
+    <link rel="stylesheet" href="../css/header.css">
     <title>会社説明</title>
 </head>
 <body>
-    <?php require_once("__header.php");
+    <?php require_once("../__header.php");
     ?>
 
 
@@ -172,10 +172,12 @@
             <div class="button-applybtn"><span>お問い合わせ</span></div>
             </div>
         </div>
-<?php
-require_once("__company.php");
-?>
-        <div class="wrapper6">
+        <div class="wrapper">
+            <!-- <?php
+            require_once("../__company.php");
+            ?> -->
+        </div>
+        <!-- <div class="wrapper6">
             <div class="content-title1">会社概要</div>
             <div class="company_profile">
                 
@@ -214,7 +216,7 @@ require_once("__company.php");
                 </div>
                 <div class="a"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3147.1807384190965!2d139.0963964764181!3d37.92620790342175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ff4ca4911db4d33%3A0xd1d963eacf50ccf!2z44Kr44O844OG44Kv44Gu5pu056eR!5e0!3m2!1sja!2sjp!4v1703656063305!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
             </div>
-        </div>
+        </div> -->
 
         <div class="wrapper7">
             <img src="./img/maker.png" alt="maker">
