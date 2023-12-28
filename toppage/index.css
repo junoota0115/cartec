@@ -193,23 +193,23 @@ header .right_content ul{
 	content: '';
 	position: absolute;
 	top: 0;
-	right: 0;
+	left: -16px;
+	bottom: 0;
 	width: 0;
-	height: 0;
 	border-style: solid;
-	border-width: 0 20px 20px 0; /* 右上隅に対する対角線の幅を調整 */
-	border-color: transparent #F0F0F0 transparent transparent; /* 右上隅の色を指定 */
+	border-width: 8px ;
+	border-color: transparent #C90000 transparent transparent;
   }
   .applybtn .button-applybtn::after {
 	content: '';
 	position: absolute;
 	top: 0;
-	left: 0;
+	right: -16px;
+	bottom: 0;
 	width: 0;
-	height: 0;
 	border-style: solid;
-	border-width: 0 0 20px 20px; /* 左上隅に対する対角線の幅を調整 */
-	border-color: transparent transparent transparent #F0F0F0; /* 右上隅の色を指定 */
+	border-width: 8px; 
+	border-color: transparent transparent transparent #C90000;
   }
   
 
