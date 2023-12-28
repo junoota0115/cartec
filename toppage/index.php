@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="../css/company.css">
     <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/maker.css">
     <title>会社説明</title>
 </head>
 <body>
@@ -219,7 +220,8 @@
         </div> -->
 
         <div class="wrapper7">
-            <img src="./img/maker.png" alt="maker">
+        <?php require_once("../__maker.php");
+        ?>
             </div>
 
             <div class="wrapper8">

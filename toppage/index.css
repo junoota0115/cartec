@@ -279,7 +279,7 @@ header .right_content ul{
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	gap: 48px;
+	gap: 30px;
 	padding-bottom: 48px;
 }
 .wrapper5 .inquiry .inquiry-content{
@@ -303,7 +303,7 @@ header .right_content ul{
 .list-number-top{
 	background-color: #E7DE01;
 	width: 120px;
-	height: 142px;
+	/* height: 142px; */
 	flex-shrink: 0;
 	color: #363636;
 	text-align: center;
@@ -312,18 +312,22 @@ header .right_content ul{
 	font-weight: 700;
 	line-height: 160%;
 	position: relative;
+	display: flex;
+	align-items: center; /* 垂直方向の中央寄せ */
+	justify-content: center;
 }
   
   .inquiry-content .list-number-top::before {
 	content: '';
 	position: absolute;
-	bottom: 0;
+	bottom: -69px;
 	right: 0;
 	width: 0;
-	height: 0;
 	border-style: solid;
-	border-width: 40px 60px 0 0; /* 右上隅に対する対角線の幅を調整 */
-	border-color: transparent #F0F0F0 transparent transparent; /* 右上隅の色を指定 */
+	border-width: 35px;
+    border-left-width: 60px;
+    border-right-width: 60px;
+	border-color: #E7DE01 transparent transparent transparent; /* 右上隅の色を指定 */
   }
 
   .inquiry-content .list-number-top::after {
@@ -334,14 +338,14 @@ header .right_content ul{
 	width: 0;
 	height: 0;
 	border-style: solid;
-	border-width: 40px 0 0 60px;
+	border-width: 0;
 	border-color: transparent transparent transparent #F0F0F0;
   }
 
   .list-number{
 	background-color: #E7DE01;
 	width: 120px;
-	height: 142px;
+	/* height: 142px; */
 	flex-shrink: 0;
 	color: #363636;
 	text-align: center;
@@ -351,47 +355,54 @@ header .right_content ul{
 	font-weight: 700;
 	line-height: 160%;
 	position: relative;
+	display: flex;
+	align-items: center; /* 垂直方向の中央寄せ */
+	justify-content: center;
 }
   
   .inquiry-content .list-number::before {
 	content: '';
 	position: absolute;
-	bottom: 0;
+	bottom: 35px;
 	right: 0;
 	width: 0;
 	height: 0;
 	border-style: solid;
-	border-width: 40px 60px 0 0; /* 右上隅に対する対角線の幅を調整 */
-	border-color: transparent #F0F0F0 transparent transparent; /* 右上隅の色を指定 */
+	border-width: 35px;
+    border-left-width: 60px;
+    border-right-width: 60px;
+	border-color: #F0F0F0 transparent transparent transparent; /* 右上隅の色を指定 */
   }
 
   .inquiry-content .list-number::after {
 	content: '';
 	position: absolute;
-	bottom: 0;
-	left: 0;
+	bottom: -69px;
+	right: 0;
 	width: 0;
-	height: 0;
 	border-style: solid;
-	border-width: 40px 0 0 60px; /* 左上隅に対する対角線の幅を調整 */
-	border-color: transparent transparent transparent #F0F0F0; /* 右上隅の色を指定 */
+	border-width: 35px;
+    border-left-width: 60px;
+    border-right-width: 60px;
+	border-color: #E7DE01 transparent transparent transparent;
   }
 
 
   .list-number-bottom{
 	background-color: #E7DE01;
 	width: 120px;
-	height: 104.253px;
 	flex-shrink: 0;
 	flex-shrink: 0;
 	color: #363636;
 	text-align: center;
-	font-family: Yu Gothic;
 	font-size: 40px;
 	font-style: normal;
 	font-weight: 700;
 	line-height: 160%;
 	position: relative;
+	display: flex;
+	align-items: center; /* 垂直方向の中央寄せ */
+	justify-content: center;
 }
   
   .inquiry-content .list-number-bottom::before {
@@ -402,11 +413,13 @@ header .right_content ul{
 	width: 0;
 	height: 0;
 	border-style: solid;
-	border-width: 50px 60px 0 0;
+	border-width: 35px;
+    border-left-width: 60px;
+    border-right-width: 60px;
 	border-color: #F0F0F0 transparent transparent transparent; 
   }
 
-  .inquiry-content .list-number-bottom::after {
+  /* .inquiry-content .list-number-bottom::after {
 	content: '';
 	position: absolute;
 	top: 0;
@@ -414,9 +427,9 @@ header .right_content ul{
 	width: 0;
 	height: 0;
 	border-style: solid;
-	border-width: 50px 0 0 60px;
-	border-color: #F0F0F0 transparent transparent transparent ;
-  }
+	border-width: 50px;
+	border-color: #C90000 transparent transparent transparent ;
+  } */
 
   .wrapper5 .inquiry .inquiry-list img{
 	padding-left: 64px;
