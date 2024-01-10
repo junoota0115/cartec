@@ -1,0 +1,41 @@
+header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 40px 64px;
+	background-color: transparent;
+	z-index: 10;
+}
+.left_section {
+	display: flex;
+	justify-content: start;
+	max-width: 350px;
+}
+.right_section {
+	display: flex;
+	justify-content: end;
+	gap: 32px;
+	font-size: 24px;
+	color: #fff;
+}
+.right_section div:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+
+@media (max-width: 768px) {
+	header {
+		padding: 24px;
+	}
+	.left_section {
+		max-width: 160px;
+	}
+	.right_section {
+		display: none;
+	}
+}
