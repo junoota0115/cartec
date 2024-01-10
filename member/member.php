@@ -1,3 +1,5 @@
+<?php require_once("../common/common.php");
+?>
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -5,11 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./member.css">
     <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="../css/company.css">
+    <link rel="stylesheet" href="../CSS/header.css">
+    <link rel="stylesheet" href="../CSS/footer.css">
     <title>社員紹介</title>
 </head>
-<body>
 
-    <div class="header_content_member">
+<body>
+<?php require_once("../__header.php");
+?>
+    <!-- <div class="header_content_member">
         <div class="header_lists">
             <div><img src="./img/icon-member.png" alt="icon"></div>
             <div>整備について</div>
@@ -18,11 +25,11 @@
             <div>オンラインショップ</div>
             <div>お問い合わせ</div>
         </div>
-    </div>
+    </div> -->
 
 
     <div class="member_wrapper1">
-    <div><img src="./img/member-title.png" alt="icon"></div>
+    <!-- <div><img src="./img/member-title.png" alt="icon"></div> -->
     </div>
 
     <div class="member_wrapper2">

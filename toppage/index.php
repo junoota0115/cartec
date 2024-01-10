@@ -84,7 +84,7 @@
                 <div class="content">
                     <img src="./img/wcd1.png" alt="wcd1">
                     <div class="title">
-                        <p>大小問わず、傷・へこみを適正価格でお直しします</p>
+                        <p>安心の車検整備を徹底しております</p>
                     </div>
                     <div class="content-message">
                         <p>設備・整備士ともに、厳格な基準をクリアした当社であれば、常にハイクオリティなメンテナンスをお客様へとご提供できます。
@@ -123,7 +123,7 @@
         </div>
 
         <div class="wrapper5">
-            <div class="content-title">お問い合わせの後の流れ</div>
+            <div class="content-title">お問い合わせ後の流れ</div>
             <div class="inquiry">
                 <div class="inquiry-content">
                     <div class="list-number-top"><span>1</span></div>

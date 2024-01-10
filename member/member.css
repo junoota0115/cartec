@@ -1,5 +1,12 @@
  /* 社員紹介 */
- .header_content_member{
+ body {
+	position: relative;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1440px;
+	background-color: burlywood;
+}
+ /* .header_content_member{
 	display: flex;
 	width: 1440px;
 	padding: 40px 0px;
@@ -14,7 +21,7 @@
 	align-items: center;
 	gap: 90px;
 	color: #363636;
-}
+} */
 
 .member_lists{
 	display: flex;
