@@ -12,6 +12,11 @@
 	width: 100%;
 	max-width: 1440px;
 }
+
+.button-applybtn {
+    cursor: pointer;
+}
+
 .member_wrapper1{
 
 } 
@@ -126,7 +131,11 @@
 	border-color: transparent transparent transparent #C90000;
   }
 
-  @media (max-width: 768px){
+  @media (max-width: 1480px){
+
+  /* }
+
+  @media (max-width: 768px){ */
 
 
 	.applybtn .button-applybtn{
@@ -154,6 +163,16 @@
 		padding-top: 16px;
 	} 
 
+	@media (max-width: 480px){ 
+	}
 
+	.member_name span{
+		font-size: 20px;
+	}
 	
+	.member_name span:last-child{
+		font-size: 24px;
+	}
+	
+
   }

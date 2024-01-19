@@ -12,6 +12,10 @@ body {
 	max-width: 1440px;
 }
 
+.button-applybtn {
+    cursor: pointer;
+}
+
 
 header {
 	position: absolute;
@@ -608,7 +612,25 @@ padding-left: 40px;
 	padding-bottom: 40px;
   }
 
- 
+  @media (max-width: 1240px){
+	.wrapper3 .wrapper3-img {
+		display: block;
+	}
+
+	.wrapper3-img .img-message {
+		position: relative;
+		top: 0px;
+		color: #363636;
+		font-size: 20px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 160%;
+		margin-left: 0;
+		padding: 0;
+		padding-top: 16px;
+	}
+  }
+
   @media (max-width: 768px){
 	
 	.applybtn .button-applybtn{

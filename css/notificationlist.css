@@ -2,6 +2,7 @@
 	width: 100%;
 	max-width: 880px;
 	margin: 0 auto;
+	color:#fff
 }
 .notification_list .notice_data {
 	border-bottom: 4px solid rgb(255, 255, 255);

@@ -64,7 +64,7 @@ require_once("../__header.php");
             </div>
 
             <div class="applybtn">
-                <div class="button-applybtn"><span>トップへ戻る</span></div>
+                <div class="button-applybtn" id="topButton"><span>トップへ戻る</span></div>
                 </div>
         </div>
 
@@ -77,6 +77,6 @@ require_once("../__header.php");
             <?php require_once("../__footer.php");
         ?>
 
-
+<script src="member.js" defer></script>
 </body>
 </html>

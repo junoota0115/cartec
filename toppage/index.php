@@ -98,7 +98,7 @@
             </div>
 
             <div class="applybtn">
-				<div class="button-applybtn"><span>従業員紹介</span></div>
+				<div class="button-applybtn" id="memberButton"><span>従業員紹介</span></div>
 			</div>
         </div>
 
@@ -219,5 +219,7 @@ require_once("../__maker.php");
 require_once("../__footer.php");
 ?>
 
+
+<script src="index.js" defer></script>
 </body>
 </html>
