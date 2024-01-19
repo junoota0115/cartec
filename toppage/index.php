@@ -5,12 +5,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/common.css">
     <link rel="stylesheet" href="./index.css">
     <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="../css/notificationlist.css">
     <link rel="stylesheet" href="../css/company.css">
-    <link rel="stylesheet" href="../CSS/header.css">
-    <link rel="stylesheet" href="../CSS/maker.css">
-    <link rel="stylesheet" href="../CSS/footer.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/maker.css">
+    <link rel="stylesheet" href="../css/footer.css">
     <title>会社説明</title>
 </head>
 <body>
@@ -20,34 +22,58 @@
 
     <div class="wrapper">
         <div class="wrapper1">
-        <div class="content">
-        <img src="./img/top-fv.png"  class="absolute01" alt="top-fv" width="100%">
-        <!-- <img src="./img/main-title.png"  class="absolute02" alt="main-title"> -->
-    </div>
-            <div class="title-img1">    
-            </div>
-        </div>
-        </div>
-        <div class="wrapper2">
-            <div class="info_all">
-				<div class="info_title">
-					<p>お知らせ</p>
-				</div>
-				<div class="info_lists">
-                <p>testtesttesttesttest</p>
+            <div class="content">
+                <!-- <img src="./img/top-fv.png"  class="absolute01" alt="top-fv" width="100%"> -->
+                <img src=""  class="absolute01" alt="top-fv" width="100%">
+                <div class="mojimoji">
+                <img src="./img/main-title.png"  class="main-title" alt="main-title" width="100%">
+                    <!-- <p><span class="moji1">信頼</span><span class="moji2">の整備</span></p>
+                    <p><span class="moji1">　安心</span><span class="moji2">の走り</span></p>  -->
                 </div>
-			</div>
-            <div class="applybtn">
-            <div class="button-applybtn2"><span>一覧へ</span></div>
+
+                <!-- <div class="top_button">
+                    <div class="message_btn">
+                        <span class="icon">
+                            <img src="./img/message-icon.png" alt="message-icon">
+                        </span>
+                        <span class="text">メ</span>
+                        <span class="text">ッ</span>
+                        <span class="text">セ</span>
+                        <span class="text turn">ー</span>
+                        <span class="text">ジ</span>
+                        <span class="text">を</span>
+                        <span class="text">送</span>
+                        <span class="text">る</span>
+                    </div>
+                </div> -->
+
+                </div>
             </div>
+        </div>
+
+        <div class="wrapper2">
+				<div class="info_title">
+					<span class="gradation_border">お知らせ</span>
+				</div>
+        <?php
+        $MAX_NOTICE_DATA = 3;
+        $MAX_PAGE = 0;
+        $PAGE = 0;
+        require_once('../__notificationlist.php');
+        ?>
+            <div class="notice_btn">
+                <div class="angular_btn">
+                    <span>一覧へ</span>
+                </div>
+		    </div>
 		</div>
+
         <div class="wrapper3">
             <div class="wrapper3-content">
-              <div class="content-title">コンセプト</div>
+              <div class="content-title"><span>コンセプト</span></div>
                     <div class="wrapper3-img">    
                         <img src="./img/concept.png" alt="concept" width="100%">
-                        <!-- <div class="img-message"> -->
-                            <span>
+                            <div class="img-message">
                             カーテクの更科はスバル車をメインに一般整備から競技車輌の製作まで行っています。くるまをもっとたくさんの人達に楽しんでいただきたいという方針で経営しております。<br>
                             スバル車に限らず国産・輸入各自動車メーカーの新車､中古車､車検､一般整備､板金塗装､各種パーツの販売、取り付け、チューニング、競技車両の製作、特殊車両の作製をしています。モータースポーツでの実績、培ったノウハウを活かし､整備等の技術を一般ユーザーに提供しています。<br>
                             自動車の他にチェンソー､発電機､草刈機...etc <br>
@@ -55,14 +81,13 @@
                             とにかくエンジンが搭載されているモノならなんでもお任せください！<br>
                             一味違った知る人ぞ知る町のくるま屋です。<br>
                             新潟では、SUBARUといえば、カーテクの更科と言われております。<br>
-                            気軽にご相談ください。
-                            </span>
-                        <!-- </div> -->
+                            気軽にご相談ください。    
+                        </div>
                     </div>
             </div>
 
             <div class="wrapper3-content">
-              <div class="content-title">代表挨拶</div>
+              <div class="content-title"><span>代表挨拶</span></div>
               <div class="wrapper3-img">    
                     <img src="./img/message.png" alt="message" class="img" width="100%">
                     <div class="img-message">こんにちは。カーテクの更科代表更科昌義です。<br>
@@ -178,62 +203,21 @@
             <div class="button-applybtn"><span>お問い合わせ</span></div>
             </div>
         </div>
-        <div class="wrapper">
-             <?php
-            require_once("../__company.php");
-            ?> 
-        </div>
-        <!-- <div class="wrapper6">
-            <div class="content-title1">会社概要</div>
-            <div class="company_profile">
-                
-                <div class="company_profile_lists">
-                <div class="company_profile_list">
-                    <div class="company_name">社名</div>
-                    <div class="company_name">カーテクの更科</div>
-                </div>
-                <div class="company_profile_list">
-                    <div class="company_ceo">代表取締役</div>
-                    <div class="company_ceo">更科昌義</div>
-                </div>
-                <div class="company_profile_list">
-                    <div class="company_profile_name">社名</div>
-                    <div class="company_profile_name">カーテクの更科</div>
-                </div>
-                <div class="company_profile_list">
-                    <div class="company_address">住所</div>
-                    <div class="company_address">新潟市東区中木戸284-4</div>
-                </div>
-                <div class="company_profile_list">
-                    <div class="company_tel">電話番号</div>
-                    <div class="company_tel">025-270-9701</div>
-                </div>
-                <div class="company_profile_list">
-                    <div class="company_industry">業種</div>
-                    <div class="company_industry">・車検・整備・点検・修理・板金塗装・新車販売・中古車販売</div>
-                </div>
-                <div class="company_profile_list">
-                    <div class="company_hours">営業時間</div>
-                    <div class="company_hours">10:00～18:00（イベント時は臨時休業）</div>
-                </div>
-                <div class="company_profile_list">
-                    <div class="company_explanation">新潟県新潟市（北区・東区・中央区・江南区・秋葉区・南区・西区・西蒲区・）など周辺地域から多くのお客様にご来店いただいております！車の修理・整備・車検・はカーテクの更科にご依頼ください。</div>
-                </div>
-                </div>
-                <div class="a"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3147.1807384190965!2d139.0963964764181!3d37.92620790342175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ff4ca4911db4d33%3A0xd1d963eacf50ccf!2z44Kr44O844OG44Kv44Gu5pu056eR!5e0!3m2!1sja!2sjp!4v1703656063305!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
-            </div>
-        </div> -->
 
-        <div class="wrapper7">
-        <?php require_once("../__maker.php");
-        ?>
-            </div>
 
-            <div class="wrapper8">
-            <?php require_once("../__footer.php");
-        ?>
 
-        </div>
     </div>
+<?php
+require_once("../__company.php");
+?> 
+
+<?php 
+require_once("../__maker.php");
+?>
+
+<?php 
+require_once("../__footer.php");
+?>
+
 </body>
 </html>
